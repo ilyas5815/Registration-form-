@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color:#e9edc9;
+    text-align: center;
+}
+
+.row{
+    border: 1px solid #fefae0;
+    background-color: #d4a373;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#first-row{
+    border-radius: 0;
+    background-color: #d4a373;
+}
+
+h3{
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#display-image{
+    background-image: url('../images/men\ two.jpg');
+    width: 540px;
+    height: 420px;
+    border: 1px solid #fefae0;
+    background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+  }
+
+  span{
+    color: aliceblue;
+  }
+  
+  h2{
+    color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  #result-address{
+    height: 90px;
+    display: block;
+    white-space: pre;
+  }
+  #result-welcome{
+    color:#fefae0;
+    font-weight: bold;
+  }
+ 
